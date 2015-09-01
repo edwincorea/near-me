@@ -1,0 +1,13 @@
+logs/*
+!.gitkeep
+node_modules/
+app/vendor/angular/
+app/vendor/angular-loader/
+app/vendor/angular-mocks/
+app/vendor/angular-route/
+app/vendor/bootstrap*
+app/vendor/html5*
+app/vendor/jquery
+tmp
+.DS_Store
+.idea

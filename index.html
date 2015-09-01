@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+    <link href="app/vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/leaflet.css" rel="stylesheet" />
+    <script src="app/vendor/angular/angular.min.js"></script>
+    <script src="app/vendor/angular-route/angular-route.min.js"></script>
+    <script src="app/vendor/leaflet.js"></script>
+    <script src="app/vendor/angular-leaflet-directive.min.js"></script>
+    <script src="app/vendor/helper.js"></script>
+</head>
+<body ng-app="NearMeApp">
+
+<div class="header">
+    <div class="container-fluid">
+        <h1 class="pull-left">NearMe</h1>
+        <a class="pull-right" href="#/about">About</a>
+    </div>
+</div>
+
+<div ng-view></div>
+
+<!-- Modules -->
+<script src="app/app.js"></script>
+
+<!-- Controllers -->
+<script src="app/controllers/MainController.js"></script>
+<script src="app/controllers/AboutController.js"></script>
+
+<!-- Directives -->
+
+
+<!-- Services -->
+<script src="app/services/places.js"></script>
+
+</body>
+</html>
